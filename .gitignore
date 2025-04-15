@@ -1,0 +1,33 @@
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment folder (replace 'venv' if you named yours differently)
+venv/
+env/
+.venv/
+myenv/
+
+# IDE configuration files (examples)
+.idea/
+.vscode/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Sensitive files (IMPORTANT!)
+.env
+*.env
+secrets.txt
+# Add any file containing your HUGGINGFACEHUB_API_TOKEN or other keys!
+
+# Local database files (IMPORTANT for your app)
+chroma_db_persist_multi/
+
+# Dependency folders (if any besides venv)
+# build/
+# dist/
+# *.egg-info/
